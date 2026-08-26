@@ -106,8 +106,10 @@
     object-fit: cover;
   }
 
-  .banner-secondary{
-    aspect-ratio: 16 / 9;
+  .team-banner{
+    width: 100%;
+    height: auto;
+    display: block;
     margin-top: var(--space-md);
   }
 
@@ -119,9 +121,9 @@
 
   h1{
     font-size: var(--fs-display);
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: -0.02em;
-    line-height: 1.1;
+    line-height: 1.32;
     margin: 0 0 var(--space-sm);
   }
 
@@ -185,7 +187,7 @@
     text-align:center;
     text-decoration:none;
     color: var(--ink);
-    background: var(--card);
+    background: #AAD5E9;
     border: 1px solid var(--line);
     padding: var(--space-xs) var(--space-sm);
     border-radius: var(--radius-sm);
@@ -202,7 +204,7 @@
   }
 
   .waitlist-block{
-    background: #D9D9D9;
+    background: #AAD5E9;
     padding: var(--space-md);
     margin: var(--space-md) 0;
   }
@@ -224,7 +226,7 @@
     gap: var(--space-xs);
     color: var(--muted);
     font-size: var(--fs-body);
-    background: #D9D9D9;
+    background: #AAD5E9;
   }
 
   .tally-loading[hidden]{
@@ -332,6 +334,8 @@
     </section>
   </div>
 
+  <img class="team-banner" src="assets/helloteam.png" alt="서울에서 인사하는 NOMADIA 팀원 6명의 단체 사진">
+
   <div class="content">
     <section>
       <h3 class="section-title">A Note from Our Team</h3>
@@ -355,8 +359,6 @@
       <a class="more-link" href="https://tandumstudio.github.io/nomadia-link/?lang=en">Explore all NOMADIA links</a>
     </section>
   </div>
-
-  <div class="banner banner-secondary" data-label="Image banner — 16:9&#10;Suggested: pharmacy shelf or hero product lineup"></div>
 
   <hr class="divider">
 
